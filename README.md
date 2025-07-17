@@ -1,4 +1,4 @@
-# **Robust** Perception Adversarial Training (RPAT)
+# Robust Perception Adversarial Training (RPAT)
 
 
 
