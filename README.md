@@ -17,7 +17,9 @@ In response, we define a new AT objective named _**Robust Perception**_, encoura
 <img decoding="async" src="roadmap.png" width="100%">
 
 
-## 1. Dependencies
+## Quick Start
+
+### 1. Dependencies
 
 The two parts of code share the same environment, which can be reproduced via:
 
@@ -25,7 +27,7 @@ The two parts of code share the same environment, which can be reproduced via:
 conda env create -f RPAT.yaml
 ```
 
-## 2. For "RPAT_Benchmarks"
+### 2. Run *RPAT_Benchmarks*
 
 ```
 # Example for training with PGD-AT + RPAT
@@ -38,7 +40,7 @@ python train.py --mode adv_train --consistency --RA --model {model} --distance {
 python eval.py --mode test_auto_attack --model {model} --distance {norm} --epsilon {epsilon} --dataset {dataset} --load_path {record_path}
 ```
 
-## 3. For "RPAT_SOTAs"
+### 3. Run *RPAT_SOTAs*
 
 ```
 # Example for training and evaluation with RPAT++ (i.e., ReBAT + RPAT)
