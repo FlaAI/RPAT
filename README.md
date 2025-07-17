@@ -8,7 +8,7 @@
 
 ## Core Idea
 
-<img decoding="async" src="roadmap.png" width="20%">
+<img decoding="async" src="roadmap.png" width="100%">
 
 
 ## 1. Dependencies
