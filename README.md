@@ -6,6 +6,10 @@
 
 - The implementation of *RPAT_Benchmarks* is based on https://github.com/alinlab/consistency-adversarial, while *RPAT_SOTAs* is built upon https://github.com/PKU-ML/ReBAT. Our great thanks for the generous open-source!
 
+## Core Idea
+
+<img decoding="async" src="Figs/roadmap.png" width="20%">
+
 
 ## 1. Dependencies
 
