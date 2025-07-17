@@ -1,6 +1,6 @@
-# Failure Cases Are Better Learned But Boundary Says Sorry: Facilitating Smooth Perception Change for Accuracy-Robustness Trade-Off in Adversarial Training
+# **Robust** Perception Adversarial Training (RPAT)
 
-### ICCV'25 Submission # 11153
+
 
 - Our code is divided into two individual parts, namely "RPAT_Benchmarks" and "RPAT_SOTAs". The latter corresponds to the results in Sec 5.3 of our manuscript, while other results are acquired through the former.
 
