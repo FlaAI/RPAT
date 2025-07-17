@@ -10,9 +10,11 @@
 
 Adversarial Training (AT) creates an inherent trade-off between clean accuracy and adversarial robustness, which is commonly attributed to the more complicated decision boundary caused by the insufficient learning of hard adversarial samples. In this work, we reveal a counterintuitive fact for the first time: _**From the perspective of perception consistency, hard adversarial samples that can still attack the robust model after AT are already learned better than those successfully defended.**_ 
 
-Thus, different from previous views, we argue that it is rather the over-sufficient learning of hard adversarial samples that degrades the decision boundary and contributes to the trade-off problem. Specifically, the excessive pursuit of perception consistency would force the model to view the perturbations as noise and ignore the information within them, which should have been utilized to induce a smoother perception transition towards the decision boundary to support its establishment to an appropriate location. In response, we define a new AT objective named _**Robust Perception**_, encouraging the model perception to change smoothly with input perturbations, based on which we propose a novel **R**obust **P**erception **A**dversarial **T**raining (**RPAT**) method, effectively mitigating the current accuracy-robustness trade-off.
+Thus, different from previous views, we argue that it is rather the over-sufficient learning of hard adversarial samples that degrades the decision boundary and contributes to the trade-off problem. Specifically, the excessive pursuit of perception consistency would force the model to view the perturbations as noise and ignore the information within them, which should have been utilized to induce a smoother perception transition towards the decision boundary to support its establishment to an appropriate location. 
 
-<img decoding="async" src="roadmap.png" width="90%" align='center'>
+In response, we define a new AT objective named _**Robust Perception**_, encouraging the model perception to change smoothly with input perturbations, based on which we propose a novel **R**obust **P**erception **A**dversarial **T**raining (**RPAT**) method, effectively mitigating the current accuracy-robustness trade-off.
+
+<img decoding="async" src="roadmap.png" width="100%">
 
 
 ## 1. Dependencies
