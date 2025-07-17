@@ -1,5 +1,7 @@
 # Robust Perception Adversarial Training (RPAT)
 
+- The paper has been accepted for publication at 2025 International Conference on Computer Vision (ICCV'25).
+
 - Our code is divided into two individual parts, namely *RPAT_Benchmarks* and *RPAT_SOTAs*. The latter corresponds to the results in Sec 5.3 of our paper, while other results are acquired through the former.
 
 - The implementation of *RPAT_Benchmarks* is based on https://github.com/alinlab/consistency-adversarial, while *RPAT_SOTAs* is built upon https://github.com/PKU-ML/ReBAT. Our great thanks for the generous open-source!
