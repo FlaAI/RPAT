@@ -1,6 +1,6 @@
 # Robust Perception Adversarial Training (RPAT)
 
-- The paper has been accepted for publication at 2025 International Conference on Computer Vision (ICCV'25).
+- The paper has been accepted for publication at *2025 IEEE/CVF International Conference on Computer Vision* (ICCV'25). The arXiv preprint is available [here](https://arxiv.org/abs/2508.02186).
 
 - Our code is divided into two individual parts, namely *RPAT_Benchmarks* and *RPAT_SOTAs*. The latter corresponds to the results in Sec 5.3 of our paper, while other results are acquired through the former.
 
